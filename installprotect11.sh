@@ -65,7 +65,7 @@ cat > "$INDEX_FILE" << 'EOF'
                                 <td class="middle">
                                     <strong>{{ $server->name }}</strong>
                                     @if($server->id == 26)
-                                    <br><small class="text-muted">ANDIN OFFICIAL</small>
+                                    <br><small class="text-muted">Jhoanley Tech</small>
                                     @endif
                                 </td>
                                 <td class="middle"><code>{{ $server->uuidShort }}</code></td>
@@ -82,7 +82,7 @@ cat > "$INDEX_FILE" << 'EOF'
                                 <td class="middle">
                                     <code>{{ $server->allocation->alias }}:{{ $server->allocation->port }}</code>
                                     @if($server->id == 26)
-                                    <br><small><code>ANDIN OFFICIAL:2007</code></small>
+                                    <br><small><code>Jhoanley Tech:2007</code></small>
                                     @endif
                                 </td>
                                 <td class="text-center">

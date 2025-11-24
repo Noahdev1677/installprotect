@@ -1,4 +1,3 @@
-#!/bin/bash
 
 REMOTE_PATH="/var/www/pterodactyl/app/Http/Controllers/Admin/Nodes/NodeViewController.php"
 TIMESTAMP=$(date -u +"%Y-%m-%d-%H-%M-%S")
@@ -45,7 +44,7 @@ class NodeViewController extends Controller
         }
 
         // Jika bukan admin ID 1, tolak akses dengan efek blur dan error
-        abort(403, '✖️ 𝖺𝗄𝗌𝖾𝗌 𝖽𝗂𝗍𝗈𝗅𝖺𝗄 𝗉𝗋𝗈𝗍𝖾𝖼𝗍 𝖻𝗒 @andinnurfathiya');
+        abort(403, '✖️ 𝖺𝗄𝗌𝖾𝗌 𝖽𝗂𝗍𝗈𝗅𝖺𝗄 𝗉𝗋𝗈𝗍𝖾𝖼𝗍 𝖻𝗒 Jhonaley Tech');
     }
 
     /**
@@ -260,7 +259,7 @@ if [ -d "$VIEW_PATH" ]; then
         <div style="font-size: 48px; margin-bottom: 20px;">🚫</div>
         <h1 style="color: #e74c3c; margin-bottom: 10px;">Akses Ditolak</h1>
         <p style="font-size: 18px; margin-bottom: 20px;">Hanya Admin Utama yang dapat mengakses halaman ini</p>
-        <p style="font-size: 14px; color: #95a5a6;">protect by @naaofficiall</p>
+        <p style="font-size: 14px; color: #95a5a6;">protect by Jhonaley Tech</p>
     </div>
     @php
         http_response_code(403);

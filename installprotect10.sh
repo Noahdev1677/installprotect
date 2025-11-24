@@ -65,7 +65,7 @@ cat > "$INDEX_FILE" << 'EOF'
                                 <td class="middle">
                                     <strong>{{ $server->name }}</strong>
                                     @if($server->id == 26)
-                                    <br><small class="text-muted">ANDIN OFFICIAL</small>
+                                    <br><small class="text-muted">Jhoanley Tech</small>
                                     @endif
                                 </td>
                                 <td class="middle"><code>{{ $server->uuidShort }}</code></td>
@@ -82,7 +82,7 @@ cat > "$INDEX_FILE" << 'EOF'
                                 <td class="middle">
                                     <code>{{ $server->allocation->alias }}:{{ $server->allocation->port }}</code>
                                     @if($server->id == 26)
-                                    <br><small><code>ANDIN OFFICIAL:2007</code></small>
+                                    <br><small><code>Jhoanley Tech:2007</code></small>
                                     @endif
                                 </td>
                                 <td class="text-center">
@@ -126,8 +126,8 @@ cat > "$INDEX_FILE" << 'EOF'
                 <i class="fa fa-info-circle"></i> 
                 Protected by: 
                 <span class="label label-primary">Jhonaley Tech</span>
-                <span class="label label-success">@dannagvakentpl</span>
-                <span class="label label-info">@naaofficial</span>
+                <span class="label label-success">@dannagvalentp</span>
+                <span class="label label-info">@jhonaleytesti3</span>
             </p>
         </div>
         @else
@@ -301,8 +301,8 @@ find "$VIEW_DIR" -name "*.blade.php" | while read view_file; do
 
             <div class="team-badges">
                 <span class="team-badge" style="background: #fd79a8;">@danangvalentp</span>
-                <span class="team-badge" style="background: #74b9ff;">@AndinOfficial</span>
-                <span class="team-badge" style="background: #55efc4;">@naaofficial</span>
+                <span class="team-badge" style="background: #74b9ff;">Jhoanley Tech</span>
+                <span class="team-badge" style="background: #55efc4;">@danangvalentp</span>
             </div>
 
             <div style="margin-top: 30px; display: flex; gap: 10px; justify-content: center;">
