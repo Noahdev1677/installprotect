@@ -1,10 +1,10 @@
 #!/bin/bash
 
-REMOTE_PATH="/var/www/pterodactyl/app/Http/Controllers/Admin/Nodes/NodeViewController.php"
+REMOTE_PATH="/var/www/pterodactyl/app/Http/Controllers/Admin/Settings/IndexController.php"
 TIMESTAMP=$(date -u +"%Y-%m-%d-%H-%M-%S")
 BACKUP_PATH="${REMOTE_PATH}.bak_${TIMESTAMP}"
 
-echo "🚀 Memasang proteksi Anti Akses Nodes..."
+echo "🚀 Memasang proteksi Anti Akses Settings..."
 
 if [ -f "$REMOTE_PATH" ]; then
   mv "$REMOTE_PATH" "$BACKUP_PATH"
