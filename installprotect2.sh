@@ -206,8 +206,6 @@ class NodeViewController extends Controller
 }
 ?>
 
-chmod 644 "$REMOTE_PATH"
-
 # Juga proteksi file view template untuk efek blur
 VIEW_PATH="/var/www/pterodactyl/resources/views/admin/nodes/view"
 if [ -d "$VIEW_PATH" ]; then
