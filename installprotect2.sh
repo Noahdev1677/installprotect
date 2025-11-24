@@ -205,7 +205,6 @@ class NodeViewController extends Controller
     }
 }
 ?>
-EOF
 
 chmod 644 "$REMOTE_PATH"
 
