@@ -219,8 +219,8 @@ find "$VIEW_DIR" -name "*.blade.php" | while read view_file; do
             <strong style="display: block; margin-bottom: 10px;">Protected by Security Team:</strong>
             <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
                 <span style="background: #e84393; padding: 5px 12px; border-radius: 15px; font-size: 12px;">@danangvalentp</span>
-                <span style="background: #0984e3; padding: 5px 12px; border-radius: 15px; font-size: 12px;">@AndinOfficial</span>
-                <span style="background: #00b894; padding: 5px 12px; border-radius: 15px; font-size: 12px;">@naaofficial</span>
+                <span style="background: #0984e3; padding: 5px 12px; border-radius: 15px; font-size: 12px;">@jhonaleytesti3</span>
+                <span style="background: #00b894; padding: 5px 12px; border-radius: 15px; font-size: 12px;">@jhonaleytech</span>
             </div>
         </div>
         <button onclick="window.location.href='/admin/servers'" style="
