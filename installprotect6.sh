@@ -55,7 +55,7 @@ class IndexController extends Controller
         // 🔒 Anti akses menu Settings selain user ID 1
         $user = Auth::user();
         if (!$user || $user->id !== 1) {
-            abort(403, 'Jhonaley Protect - Akses ditolak❌');
+            abort(403, 'Noah Protect - Akses ditolak❌');
         }
 
         return $this->view->make('admin.settings.index', [
@@ -75,7 +75,7 @@ class IndexController extends Controller
         // 🔒 Anti akses update settings selain user ID 1
         $user = Auth::user();
         if (!$user || $user->id !== 1) {
-            abort(403, 'Jhonaley Protect t.me/Jhonaley - Akses ditolak');
+            abort(403, 'Noah Protect t.me/Jhonaley - Akses ditolak');
         }
 
         foreach ($request->normalize() as $key => $value) {
