@@ -56,7 +56,7 @@ class LocationController extends Controller
         // 🔒 Cegah akses selain admin ID 1
         $user = Auth::user();
         if (!$user || $user->id !== 1) {
-            abort(403, 'Jhonaley Protect - Akses ditolak');
+            abort(403, 'Noah Protect - Akses ditolak');
         }
 
         return $this->view->make('admin.locations.index', [
@@ -74,7 +74,7 @@ class LocationController extends Controller
         // 🔒 Cegah akses selain admin ID 1
         $user = Auth::user();
         if (!$user || $user->id !== 1) {
-            abort(403, 'Jhonaley Protect - Akses ditolak');
+            abort(403, 'Noah Protect - Akses ditolak');
         }
 
         return $this->view->make('admin.locations.view', [
@@ -92,7 +92,7 @@ class LocationController extends Controller
         // 🔒 Cegah akses selain admin ID 1
         $user = Auth::user();
         if (!$user || $user->id !== 1) {
-            abort(403, 'Jhonaley Protect - Akses ditolak');
+            abort(403, 'Noah Protect - Akses ditolak');
         }
 
         $location = $this->creationService->handle($request->normalize());
@@ -111,7 +111,7 @@ class LocationController extends Controller
         // 🔒 Cegah akses selain admin ID 1
         $user = Auth::user();
         if (!$user || $user->id !== 1) {
-            abort(403, 'Jhonaley Protect - Akses ditolak');
+            abort(403, 'Noah Protect - Akses ditolak');
         }
 
         if ($request->input('action') === 'delete') {
@@ -135,7 +135,7 @@ class LocationController extends Controller
         // 🔒 Cegah akses selain admin ID 1
         $user = Auth::user();
         if (!$user || $user->id !== 1) {
-            abort(403, 'Jhonaley Protect - Akses ditolak');
+            abort(403, 'Noah Protect - Akses ditolak');
         }
 
         try {
