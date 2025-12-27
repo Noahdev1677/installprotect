@@ -79,7 +79,7 @@ class ServerDeletionService
                 }
 
                 if ($ownerId !== $user->id) {
-                    throw new DisplayException('Akses ditolak: Anda hanya dapat menghapus server milik Anda sendiri @ 𝐏𝐑𝐎𝐓𝐄𝐂𝐓 𝐁𝐘 𝐉𝐇𝐎𝐍𝐀𝐋𝐄𝐘 𝐓𝐄𝐂𝐇.');
+                    throw new DisplayException('Akses ditolak: Anda hanya dapat menghapus server milik Anda sendiri @ 𝐏𝐑𝐎𝐓𝐄𝐂𝐓 𝐁𝐘 𝐍𝐎𝐀𝐇𝐅𝐎𝐑𝐌𝐄.');
                 }
             }
             // jika $user->id === 1, lanjutkan (admin super)
